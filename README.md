@@ -22,13 +22,11 @@ We use <b>bert</b>( a contextualized word embedding based on Transformer) to con
 Preprocessing has these functions:
 <br>
 1.	Normalizing the context using Hazm library
-
 2.	Tokenizing
-<br>
 3.	Using POS tagger to find Verbs in context 
-<br>
 4.	Detect stop words (words and their stemmed form must not be stop words)
-<br>
+
+
 Words that are not verbs, stopwords, and numbers can be a keyword
-<br>
+
 
