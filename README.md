@@ -2,6 +2,7 @@
 <b> Persian Telegram Data gathered from 8 July 2021 to 22 July 2021 </b>
 
 This dataset contains six columns:
+<br>
 •	<b>context</b>: the text which is sent
 <br>
 •	<b>sender_username</b>: id of telegram channel
@@ -21,7 +22,7 @@ We use <b>bert</b>( a contextualized word embedding based on Transformer) to con
 Preprocessing has these functions:
 <br>
 1.	Normalizing the context using Hazm library
-<br>
+
 2.	Tokenizing
 <br>
 3.	Using POS tagger to find Verbs in context 
